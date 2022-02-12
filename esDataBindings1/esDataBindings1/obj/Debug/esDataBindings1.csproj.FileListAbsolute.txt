@@ -1,0 +1,10 @@
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\bin\Debug\esDataBindings1.exe.config
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\bin\Debug\esDataBindings1.exe
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\bin\Debug\esDataBindings1.pdb
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.csproj.AssemblyReference.cache
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.Form1.resources
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.Properties.Resources.resources
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.csproj.GenerateResource.cache
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.csproj.CoreCompileInputs.cache
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.exe
+C:\Users\6189986\Desktop\Repositories\esDataBindings1\esDataBindings1\obj\Debug\esDataBindings1.pdb
