@@ -48,12 +48,36 @@ namespace esDataBindings1
             elencoPersone.Add(persona3);
             elencoPersone.Add(persona4);
 
-            labelNome.Text = "";
+            labelNome.DataBindings.Add(new Binding("Text", textBox1, "Text"));
+            textBox2.DataBindings.Add(new Binding("Text", textBox1, "Text"));
+
+
+            BindingSource Persone = new BindingSource();
+            Persone.DataSource = elencoPersone;
+
+            cbPersone.DataSource = Persone;
+            cbPersone.DisplayMember = "Cognome";
+
+            cbNomeCompleto.DataSource = Persone;
+            cbNomeCompleto.DisplayMember = "NomeCompleto";
+
+            cbId.DataSource = Persone;
+            cbId.DisplayMember = "Id";
+
+            lblName.DataBindings.Add(new Binding("Text", Persone, "Nome"));
+
+            tbSize.DataBindings.Add(new Binding("Text", this, "Size"));
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            labelNome.Text = textBox1.Text;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Form2().Show();
         }
     }
 }

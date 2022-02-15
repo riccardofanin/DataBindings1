@@ -37,7 +37,11 @@ namespace esDataBindings1
             this.cbPersone = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbNomeCompleto = new System.Windows.Forms.ComboBox();
+            this.cbId = new System.Windows.Forms.ComboBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.tbSize = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,20 +112,58 @@ namespace esDataBindings1
             this.textBox2.Size = new System.Drawing.Size(211, 20);
             this.textBox2.TabIndex = 7;
             // 
-            // comboBox1
+            // cbNomeCompleto
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(378, 110);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 21);
-            this.comboBox1.TabIndex = 8;
+            this.cbNomeCompleto.FormattingEnabled = true;
+            this.cbNomeCompleto.Location = new System.Drawing.Point(378, 110);
+            this.cbNomeCompleto.Name = "cbNomeCompleto";
+            this.cbNomeCompleto.Size = new System.Drawing.Size(177, 21);
+            this.cbNomeCompleto.TabIndex = 8;
+            // 
+            // cbId
+            // 
+            this.cbId.FormattingEnabled = true;
+            this.cbId.Location = new System.Drawing.Point(378, 137);
+            this.cbId.Name = "cbId";
+            this.cbId.Size = new System.Drawing.Size(177, 21);
+            this.cbId.TabIndex = 9;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(601, 111);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.TabIndex = 10;
+            this.lblName.Text = "label3";
+            // 
+            // tbSize
+            // 
+            this.tbSize.Location = new System.Drawing.Point(378, 219);
+            this.tbSize.Name = "tbSize";
+            this.tbSize.Size = new System.Drawing.Size(211, 20);
+            this.tbSize.TabIndex = 11;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(378, 315);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(207, 68);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "ESERCIZIO 2";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tbSize);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.cbId);
+            this.Controls.Add(this.cbNomeCompleto);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cbPersone);
@@ -148,7 +190,11 @@ namespace esDataBindings1
         private System.Windows.Forms.ComboBox cbPersone;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbNomeCompleto;
+        private System.Windows.Forms.ComboBox cbId;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.TextBox tbSize;
+        private System.Windows.Forms.Button button1;
     }
 }
 
